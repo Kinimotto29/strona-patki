@@ -23,12 +23,11 @@
 }
 body {
     background-color: black;
-	color:white;
-}
+	color:white;}
 
 h2 {
     border-style:ridge;
-    border-color:rgba(0, 0, 0, 0.7);
+    border-color:white;
 }
 
 .col-md-4 h,
@@ -54,13 +53,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-#main-nav {
-    width: 100%;
-    z-index: 100;
-    position: fixed;
-}
-        
-        
 ul {
     list-style-type: none;
     margin: 0;
@@ -132,16 +124,6 @@ div.desc {
     background-color: #4CAF50;
     color: white;
 }
-
-.white {
-    background-color: #fff;
-    color: #000;
-}
-
-#formularz {
-     margin-top: 30px;       
-}
-
     </style>
     
     
@@ -149,7 +131,7 @@ div.desc {
   
 
 <body>
-<div id="main-nav" class="container-fluid">
+<div class="container-fluid">
 	<div class="row">
 		<ul>
   <li><a class="active" href="#home">Home</a></li>
@@ -159,7 +141,7 @@ div.desc {
 </ul>
 		</div>
 	</div>
-	<div id="carousel" class="row">
+	<div class="row">
 		<div class="col-md-12">
 			<div class="carousel slide" id="carousel-174751">
 				<ol class="carousel-indicators">
@@ -208,7 +190,7 @@ div.desc {
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid white">
+	<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
 		</div>
@@ -264,7 +246,7 @@ Welcome to my page
             </dl>
 			</center>
         </div>
-        <div id="div-z-kowbojem" class="col-md-12 col sm-6 col-xs-12 white">
+        <div id="div-z-kowbojem" class="col-md-12 col sm-6 col-xs-12">
 		<center>
             <img class="img-responsive" alt="Starszy mezczyzna" src="https://cdn.pixabay.com/photo/2015/04/27/04/42/people-741431_640.jpg" />
                       
@@ -306,7 +288,7 @@ Welcome to my page
 		</div>
 		<div class="col-md-4">
 		<center>
-			<form id="formularz" role="form">
+			<form role="form">
 				<div class="form-group">
 					 <center>
 					<label for="exampleInputEmail1">
@@ -352,7 +334,7 @@ Welcome to my page
 			</center>
 			</div>
 		</div>
-		<div class="col-md-4 white">
+		<div class="col-md-4">
 		</div>
 	</div>
 </div>

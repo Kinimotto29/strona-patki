@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+	color:white;}
+
+h2 {
+    border-style:ridge;
+    border-color:white;
+}
+
+.col-md-4 h,
+.col-md-4 p {
+    display: block;
+    padding: 15px;
+}
+
+#div-z-dt dt,
+#div-z-dt dd,
+#div-z-kowbojem dt, 
+#div-z-kowbojem dd {
+    display: block;
+    padding: 5px;
+}
+#div-z-dt img,
+#div-z-kowbojem img {
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
